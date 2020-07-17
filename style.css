@@ -1,0 +1,177 @@
+/* .bg--home
+{
+   background-color: /*#1d5c2e #E5E5E5;
+} */
+.fancy
+{
+  /* PRIYANKA JAIN */
+
+
+position: absolute;
+left: 45.55%;
+top: 23.19%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: rgba(162, 157, 157, 0.91);
+
+}
+span{
+
+  transition: all 5s ease;
+  transform: translateY(50px);
+  /* display: inline-block; */
+}
+.fade{
+  color:brown;
+  transform: translateY(0px);
+}
+
+.img_profile
+{
+  /* picture */
+
+
+  /* position: absolute;
+  left: 5.47%;
+  right: 56.72%;
+  top: 3.75%;
+  bottom: 1.94%; */
+  position: absolute;
+  left: 6.12%;
+  top: 0.78%;
+
+}
+.wrapper
+{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  position: absolute;
+  left: 57%;
+
+  top: 32%;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  /* line-height: 70px; */
+  transform: translate(-50%,-50%);
+color: grey;
+}
+.wrapper p
+{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+
+  /* text-shadow: 0 2px 0 rgba(0,0,0,0.25); */
+}
+#ani:before
+{
+  content: '';
+  animation: animate infinite 8s;
+}
+@keyframes animate {
+  0%{
+    content: 'Freelancer.';
+    color: blue;
+  }
+  20%{
+
+  }
+  40%{
+    content: 'Designer ;)';
+    color: red;
+  }
+  60%{
+    content: 'Developer !';
+    color: green;
+  }
+  80%{
+    content: 'Painter?';
+    color:brown;
+  }
+  100%{
+    content: 'Engineer.';
+    color: yellow;
+  }
+
+
+}
+
+#caption
+{
+  /* Artist by heart and developer by Profession */
+
+
+position: absolute;
+left: 38.55%;
+top: 42.11%;
+
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.73);
+
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#detail
+{
+  /* Currently a BTech fourth year student at Banastali Vidyapith,Rajasthan */
+
+
+  position: absolute;
+  left: 38.55%;
+
+  top: 50.92%;
+
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #A29D9D;
+}
+.bg--about{
+  background-color: #f7484e;
+}
+.align-about
+{
+  /* position: relative; */
+position: absolute;
+width: 640px;
+height: 720px;
+left: 0px;
+top: 100%;
+
+}
+/* .img-position
+{
+  vertical-align: middle;
+} */
+/* @media (min-width: 2px)
+.vertical-align--s-middle {
+    vertical-align:middle;
+}
+.subtitled {
+    margin-bottom: 0!important;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+.text-color--white {
+    color: #fff;
+} */
