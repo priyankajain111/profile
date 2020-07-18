@@ -6,7 +6,7 @@ header{
   display: flex;
   overflow: auto;
   z-index: -1;
-  /* background: url('slice 1.svg'); */
+  background: url('slice 1.svg');
   background-size: cover;
   background-position:  center;
    background-repeat: no-repeat;
